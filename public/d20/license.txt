@@ -1,0 +1,11 @@
+Model Information:
+* title:	D20
+* source:	https://sketchfab.com/3d-models/d20-056ac7e089d84cec8a284d3b9d4c07e4
+* author:	Tenshinzo (https://sketchfab.com/Tenshinzo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "D20" (https://sketchfab.com/3d-models/d20-056ac7e089d84cec8a284d3b9d4c07e4) by Tenshinzo (https://sketchfab.com/Tenshinzo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
