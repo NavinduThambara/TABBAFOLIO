@@ -15,13 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+ 
   threejs,
 } from "../assets";
 
@@ -114,93 +108,34 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "GOOD JOB NAVINDU.",
+    name: "Anupama Iranga",
+    designation: "CEO",
+    company: "Air Studios",
+    image: "",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "KEEP IT UP.",
+    name: "Dinesh Aravinda",
+    designation: "Co-Founder",
+    company: "Lakvindu Design",
+    image: "",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
+    
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Kandyan Studio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This Studio and Digital Color Lab Management System is a comprehensive solution designed to streamline the operations of Kandyan Studio.",
     tags: [
       {
         name: "react",
@@ -215,51 +150,130 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+
+    source_code_link: "https://github.com/NavinduThambara",
   },
+
   {
-    name: "Job IT",
+    name: "Horror House",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Vr horror game ",
     tags: [
       {
-        name: "react",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Blender",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "C#",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+
+    source_code_link: "https://github.com/NavinduThambara",
   },
   {
-    name: "Trip Guide",
+    name: "Tidy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "ToDO Task .",
     tags: [
       {
-        name: "nextjs",
+        name: "kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "AndroidStudio",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+  
+    source_code_link: "https://github.com/NavinduThambara",
   },
+  {
+    name: "Jet Escape",
+    description:
+      "space game",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "java",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    
+    source_code_link: "https://github.com/NavinduThambara",
+  },
+
+  {
+    name: "Trifecta",
+    description:
+      "Image Processing Application implement with deeplearning ",
+    tags: [
+      {
+        name: "tinker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openCv",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    
+    source_code_link: "https://github.com/NavinduThambara",
+  },
+
+  {
+    name: "FinsByTabba",
+    description:
+      " Web Application for Aquarium , MERN Stack",
+    tags: [
+      {
+        name: "MongoDb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Js",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    
+    source_code_link: "https://github.com/NavinduThambara",
+  },
+  {
+    name: "Shadows of Mississipi",
+    description:
+      "An open-world action-adventure game ",
+    tags: [
+      {
+        name: "UnrealEngine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "pink-text-gradient",
+      },
+    ],
+
+    source_code_link: "https://github.com/NavinduThambara",
+  },
+
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,  testimonials, projects };

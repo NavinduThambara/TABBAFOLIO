@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBehance, FaInstagram, FaWhatsapp } from "react-icons/fa6";
 
 const Contact = () => {
   const formRef = useRef();
@@ -65,9 +67,7 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className='xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden'>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -121,6 +121,52 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Social Media Links */}
+        <div className='mt-8 flex gap-6 justify-center xl:justify-start'>
+          <a
+            href='https://github.com/NavinduThambara'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white text-2xl hover:text-primary transition-colors'
+          >
+            <FaGithub />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/navindu-vilochana-767638259/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white text-2xl hover:text-primary transition-colors'
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href='https://www.instagram.com/navindu.thambara/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white text-2xl hover:text-primary transition-colors'
+          >
+            <FaInstagram />
+          </a>
+
+          <a
+            href='https://www.behance.net/NavinduVilochana'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white text-2xl hover:text-primary transition-colors'
+          >
+            <FaBehance />
+          </a>
+          <a
+            href='https://wa.me/+94766314575'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='text-white text-2xl hover:text-primary transition-colors'
+          >
+            <FaWhatsapp />
+          </a>
+
+        </div>
       </motion.div>
 
       <motion.div

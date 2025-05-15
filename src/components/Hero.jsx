@@ -10,9 +10,11 @@ const Hero = () => {
   const roles = [
     "a UI/UX Designer",
     "an Editor",
-    "a Frontend Developer",
+    "a Full-stack Developer",
     "a Mobile Application Developer",
-    "a Content Creator"
+    "a Unity/UnrealEngine Developer",
+    "a Photographer ",
+    "a Ar/Vr Developer",
   ];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 

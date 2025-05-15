@@ -25,6 +25,20 @@ const experiences = [
     ],
   },
   {
+    title: "AR/VR Developer",
+    company_name: "AirStudios",
+    icon: "path/to/tatek-icon.png",
+    iconBg: "#383E56",
+    date: "Mar 2025 - Present",
+    points: [
+      "Developing immersive AR and VR experiences using Unity and C#.",
+      "Collaborating with cross-functional teams to design interactive environments.",
+      "Integrating 3D assets and optimizing performance for various AR/VR platforms.",
+      "Conducting user testing and iterating based on feedback to enhance user experience."
+    ],
+  },
+  
+  {
     title: "Full-Stack Developer",
     company_name: "SLIIT",
     icon: "path/to/sliit-icon.png",

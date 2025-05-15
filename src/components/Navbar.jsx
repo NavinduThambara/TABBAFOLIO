@@ -52,10 +52,10 @@ const Navbar = () => {
                 "Thambara",
                 2000,
                 "Vilochana",
-                2000,
+                3000,
                 "NAVINDU THAMBARA VILOCHANA"
                 ,
-                2000,
+                4000,
               ]}
               loop={1}
               wrapper="span"
